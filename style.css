@@ -1,0 +1,44 @@
+body {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    position: relative ;
+    height: 100vh;
+    overflow-y: scroll;
+    /* overflow: visible; */
+    padding-top: 20px;
+   
+}
+
+.main {
+    background: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80);
+    background-position: fill;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow-y:hidden;
+    overflow-x: hidden;
+}
+
+form {
+    background: #1f4287bb;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+form .form-group {
+    margin: 30px 0;
+}
+
+.background-tint {
+    background-color: rgba(0,0,0, .75);
+    background-blend-mode: multiply;
+}
+
+.container::-webkit-scrollbar { 
+    width: 0 !important } 
